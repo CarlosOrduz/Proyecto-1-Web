@@ -1,9 +1,39 @@
 .home{
-    padding: 200px;
-    background: url('uploads/banner-01.jpg');
+    padding: 300px;
+    
+  
+   background: url('cara.png') no-repeat;
+   background-color: lightskyblue;
+   background-size:contain;
 }
-.menu{
-background-color: darksalmon;
-padding-top: 20px;
+.menu{  
+background-color: lightskyblue;
+}
+.menu h1{  
+    color: Black;
+    }
+.menu-item {
+    float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
 
+  .menu-item:hover {
+    background-color: lightblue;
+  }
+
+  .about{
+      padding-top:200px;
+      padding-bottom: 50px;
+      align-content: center;
+     
+  }
+  .info{
+    padding-left: 200px;
+   
 }
+
+  
