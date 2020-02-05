@@ -1,39 +1,73 @@
-.home{
-    padding: 300px;
-    
-  
-   background: url('cara.png') no-repeat;
-   background-color: lightskyblue;
-   background-size:contain;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-.menu{  
-background-color: lightskyblue;
+.home {
+  padding-top: 300px;
+  padding-bottom: 300px;
+
+  background-color: lightskyblue;
+  background-size: contain;
 }
-.menu h1{  
-    color: Black;
-    }
+@media (min-width: 768px) {
+  .home {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: url("cara.png") no-repeat;
+    background-color: lightskyblue;
+    background-size: contain;
+  }
+}
+.menu {
+  background-color: lightskyblue;
+}
+
+.menu h1 {
+  color: Black;
+}
 .menu-item {
-    float: left;
+  float: left;
   font-size: 16px;
   color: black;
   text-align: center;
   padding: 14px 16px;
+  padding-top: 15px;
   text-decoration: none;
-  }
-
-  .menu-item:hover {
-    background-color: lightblue;
-  }
-
-  .about{
-      padding-top:200px;
-      padding-bottom: 50px;
-      align-content: center;
-     
-  }
-  .info{
-    padding-left: 200px;
-   
 }
 
-  
+.menu-item:hover {
+  background-color: lightblue;
+}
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  align-content: center;
+}
+.info {
+  padding-bottom: 100px;
+}
+.work {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: lightyellow;
+}
+.projects {
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: lightyellow;
+}
+
+.experience {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  background-color: lightgreen;
+}
+.footer {
+  color: lightslategray;
+  background-color: black;
+}
