@@ -64,7 +64,9 @@ body {
   background-color: wheat;
   border-radius: 50px;
   margin-bottom: 50px;
+  text-decoration: none;
 }
+
 .projects h5{
   text-align: left;
 }
