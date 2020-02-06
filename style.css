@@ -1,5 +1,6 @@
 html,
 body {
+  scroll-behavior: smooth;
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -60,12 +61,23 @@ body {
   text-align: center;
   padding-bottom: 100px;
   background-color: lightyellow;
+  
 }
+
 
 .experience {
   padding-top: 0px;
   padding-bottom: 50px;
   background-color: lightgreen;
+}
+
+.more-item{
+  margin-top: 100px;
+  background-color:orange;
+  padding-bottom: 100px;
+  border-radius: 50px;
+  
+ 
 }
 .footer {
   color: lightslategray;
