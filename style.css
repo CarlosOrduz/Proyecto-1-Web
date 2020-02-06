@@ -60,13 +60,11 @@ body {
 .projects {
   text-align: center;
   padding-bottom: 50px;
-  background-color: green;
+  background-color: wheat;
   border-radius: 50px;
   margin-bottom: 50px;
 }
-.projects h5{
-  text-align: left;
-}
+
 .experience {
   padding-top: 0px;
   padding-bottom: 50px;
