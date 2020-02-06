@@ -6,7 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .home {
   padding-top: 300px;
@@ -19,7 +19,7 @@ body {
   .home {
     padding-top: 300px;
     padding-bottom: 300px;
-    background: url("cara.png") no-repeat;
+    background: url("cara.png") no-repeat alt= "My face";
     background-color: lightskyblue;
     background-size: contain;
   }
@@ -67,7 +67,7 @@ body {
   text-decoration: none;
 }
 
-.projects h5{
+.projects h5 {
   text-align: left;
 }
 .experience {
